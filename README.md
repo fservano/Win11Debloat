@@ -240,7 +240,7 @@ Download & run the script automatically via PowerShell. All files related to the
 2. Copy and paste the code below into PowerShell, press enter to run the script:
 
 ```PowerShell
-& ([scriptblock]::Create((irm "[https://debloat.raphi.re/](https://raw.githubusercontent.com/fservano/Win11Debloat/refs/heads/master/Get.ps1)")))
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/fservano/Win11Debloat/refs/heads/master/Get.ps1")))
 ```
 
 3. Wait for the script to automatically download Win11Debloat.
@@ -250,7 +250,7 @@ Download & run the script automatically via PowerShell. All files related to the
 This method supports [parameters](#parameters). To use parameters simply run the script as explained above, but add the parameters at the end with spaces in between. Example:
 
 ```PowerShell
-& ([scriptblock]::Create((irm "[https://debloat.raphi.re/](https://raw.githubusercontent.com/fservano/Win11Debloat/refs/heads/master/Get.ps1)"))) -RunDefaults -Silent
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/fservano/Win11Debloat/refs/heads/master/Get.ps1"))) -RunDefaults -Silent
 ```
 
 ### Traditional method
